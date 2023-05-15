@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const HOST = 'http://localhost:4000/api';
+const HOST = 'https://backend-vercel-blond.vercel.app/api';
 
 export async function createNewUser(body) {
   try {
